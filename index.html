@@ -16,14 +16,16 @@
 </head>
 <body>
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary box-shadow">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Skillkernel</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary box-shadow mb-4">
+        <div class="container-fluid d-flex justify-content-between">
+            <div>
+                <a class="navbar-brand text-sk-primary mr-5" href="#">Skillkernel</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>      
+            </div>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item dropdown">
                     <a class="caret-off btn dropdown-toggle btn-sk-primary box-shadow" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       Courses
@@ -65,31 +67,19 @@
             <div class="action-buttons">
               <button type="button" class="btn bg-white box-shadow">Login</button>
               <button type="button" class="btn btn-sk-primary box-shadow">Apply Now</button>
-              <button class="btn btn-outline-light" id="theme-toggle">
-                <div class="theme-icon">
-                  <!-- Moon icon for light mode -->
-                  <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                    <path fill="currentColor" d="M12.09 20.66a9 9 0 0 1-1.09-.07A8.8 8.8 0 0 1 3.41 13a8.71 8.71 0 0 1 6.83-9.67a1.23 1.23 0 0 1 1.27.48a1.27 1.27 0 0 1 .05 1.4a5.3 5.3 0 0 0-.66 3.47a5.24 5.24 0 0 0 4.38 4.38a5.2 5.2 0 0 0 3.47-.67a1.27 1.27 0 0 1 1.4.07a1.21 1.21 0 0 1 .48 1.26a8.7 8.7 0 0 1-8.54 6.94M10 5a7.25 7.25 0 1 0 9 9a6.74 6.74 0 0 1-9.61-5A6.75 6.75 0 0 1 10 5"/>
-                  </svg>
-                  <!-- Sun icon for dark mode -->
-                  <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="display: none;">
-                    <path fill="currentColor" d="M12 17.75A5.75 5.75 0 1 1 17.75 12A5.76 5.76 0 0 1 12 17.75m0-10A4.25 4.25 0 1 0 16.25 12A4.26 4.26 0 0 0 12 7.75M12 5a.76.76 0 0 1-.75-.75v-1.5a.75.75 0 0 1 1.5 0v1.5A.76.76 0 0 1 12 5m0 17a.76.76 0 0 1-.75-.75v-1.5a.75.75 0 0 1 1.5 0v1.5A.76.76 0 0 1 12 22m9.25-9.25h-1.5a.75.75 0 0 1 0-1.5h1.5a.75.75 0 0 1 0 1.5m-17 0h-1.5a.75.75 0 0 1 0-1.5h1.5a.75.75 0 0 1 0 1.5m2.25-5.5A.74.74 0 0 1 6 7L4.91 6A.75.75 0 1 1 6 4.91L7 6a.75.75 0 0 1 0 1a.74.74 0 0 1-.5.25m12.06 12.06a.74.74 0 0 1-.53-.22L17 18a.75.75 0 0 1 1-1l1.09 1a.75.75 0 0 1 0 1.06a.74.74 0 0 1-.53.25M17.5 7.25A.74.74 0 0 1 17 7a.75.75 0 0 1 0-1l1-1.09A.75.75 0 1 1 19.09 6L18 7a.74.74 0 0 1-.5.25M5.44 19.31a.74.74 0 0 1-.53-.22a.75.75 0 0 1 0-1.06L6 17a.75.75 0 0 1 1 1l-1 1.09a.74.74 0 0 1-.56.22"/>
-                  </svg>
-                </div>
-              </button>
             </div>
           </div>
         </div>
-      </nav>
+    </nav>
 
     <!-- Hero Section -->
-    <header style="background-image: url(./assets/images/learner.jpeg);" class="text-left py-5 hero-section">
+    <header style="background-image: url(./assets/images/learner.jpeg);" class="text-left hero-section">
         <div class="container">
             <h1 class="display-4 text-white mb-4"><span class="text-sk-primary">Online Learning</span> Designed <br> For Real Life</h1>
             <p class="lead text-white mb-2">Move your creative journey forward without putting life on hold</p>
             <p class="lead text-white mb-4">Our programmes will help you find inspiration that fits your routine</p>
 
-            <div class="hero-buttons">
+            <div class="hero-buttons mt-5">
                 <a href="#" class="btn bg-sk-primary btn-lg text-white box-shadow">Explore all courses</a>
                 <a href="#" class="btn bg-white btn-lg box-shadow">Log In</a>    
             </div>
@@ -98,7 +88,7 @@
 
     <!-- Search Courses -->
     <div class="courses container border border-white rounded mt-5 bg-white p-4 p-lg-5">
-        <h2 class="display-4 mb-4">Search for courses</h2>
+        <h2 class="mb-4 fw-bolder">Search for courses</h2>
         <div class="row g-3">
             <!-- Search Input -->
             <div class="col-12 col-lg-3 col-md-6">
@@ -147,11 +137,11 @@
         </div>
     </div>   
     
-    <div class="popular-courses-cards container mt-5 mb-5 p-4 p-lg-5">
-      <h2 class="display-4 mb-4">Popular courses</h2>
+    <div class="popular-courses-cards container-fluid mb-5 p-4 p-lg-5">
+      <h2 class="mb-4 fw-bolder">Popular courses</h2>
   
       <div class="position-relative">
-      <div id="courseCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div id="courseCarousel" class="carousel slide" data-bs-ride="carousel"  data-bs-interval="4000">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#courseCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#courseCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -453,14 +443,29 @@
         </button>
       </div>
     </div>
-    <button type="button" class="btn bg-white box-shadow relative center">View all courses </button>
+    <button type="button" class="btn bg-white box-shadow relative center">
+        View all courses 
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><rect width="24" height="24" fill="none"/><path fill="#000000" d="m13.172 12l-4.95-4.95l1.414-1.413L16 12l-6.364 6.364l-1.414-1.415z"/></svg>
+    </button>
   </div>
 
 <!-- First Row of Course Cards -->
 <div class="more-courses-container row row-cols-1 row-cols-md-4 g-4 px-5">
+    <div class="nav-arrows">
+        <button class="nav-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#9D243B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 18l-6-6 6-6"/>
+            </svg>
+        </button>
+        <button class="nav-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#9D243B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 18l6-6-6-6"/>
+            </svg>
+        </button>
+    </div>
   <!-- Intro Card -->
   <div class="col">
-      <div class="card intro-card intro-card-primary h-100">
+      <div style="background-image: url(./assets/images/flower-bg.png);" class="card intro-card intro-card-primary h-100">
           <div class="card-body">
               <h5 class="card-title">Explore short courses</h5>
               <p class="card-text">Explore our newest programmes, focused on delivering in-demand skills.</p>
@@ -573,7 +578,7 @@
           </div>
           <div class="card-body d-flex flex-column">
               <h5 class="card-title">Advanced Professional Certificate in Leadership and Organizational Behaviour</h5>
-              <p class="card-text">Understand behavioural patterns in the workspace and take your team to greater heights with impeccable people management skilss with our comprehensive program...</p>
+              <p class="card-text">Understand behavioural patterns in the workspace and proper leadership skills with our comprehensive program...</p>
               <p class="mt-auto"><span class="emphasize">£120 <del class="small text-muted">£216</del></span></p>
               <a href="#" class="btn bg-sk-secondary btn-lg text-white box-shadow w-100 mt-3">See course details</a>
           </div>
@@ -583,9 +588,21 @@
 
 <!-- Second Row of Course Cards -->
 <div class="more-courses-container row row-cols-1 row-cols-md-4 g-4 px-5">
+    <div class="nav-arrows">
+        <button class="nav-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#9D243B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 18l-6-6 6-6"/>
+            </svg>
+        </button>
+        <button class="nav-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#9D243B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 18l6-6-6-6"/>
+            </svg>
+        </button>
+    </div>
   <!-- Intro Card -->
   <div class="col">
-      <div class="card intro-card intro-card-secondary h-100">
+      <div style="background-image: url(./assets/images/flower-bg.png);" class="card intro-card intro-card-secondary h-100">
           <div class="card-body">
               <h5 class="card-title">Explore Degree courses</h5>
               <p class="card-text">Explore our newest programmes, focused on delivering in-demand skills.</p>
@@ -707,10 +724,22 @@
 </div>  
 
 <!-- Third Row of Course Cards -->
-<div class="row row-cols-1 row-cols-md-4 g-4 px-5">
+<div class="more-courses-container row row-cols-1 row-cols-md-4 g-4 px-5">
+    <div class="nav-arrows">
+        <button class="nav-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#9D243B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 18l-6-6 6-6"/>
+            </svg>
+        </button>
+        <button class="nav-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#9D243B" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 18l6-6-6-6"/>
+            </svg>
+        </button>
+    </div>
   <!-- Intro Card -->
   <div class="col">
-      <div class="card intro-card intro-card-tertiary h-100">
+      <div style="background-image: url(./assets/images/flower-bg.png);" class="card intro-card intro-card-tertiary h-100">
           <div class="card-body">
               <h5 class="card-title">Explore Diploma courses</h5>
               <p class="card-text">Explore our newest programmes, focused on delivering in-demand skills.</p>
@@ -834,8 +863,8 @@
 <!-- How it works -->
 <div class="how-it-works container-fluid bg-white py-5">
   <div class="container px-4">
-    <h2 class="display-4 text-center mb-5">How a Professional Certificate Works</h2>
-    <p class="text-center mb-5">Upskill, reskill or pursue a passion with short courses across every subject, whether you are a beginner or already an expert.</p>
+    <h2 class="mb-4 fw-bolder text-left tracking-tighter">How a Professional Certificate Works</h2>
+    <p class="text-left mb-5 tracking-tighter">Upskill, reskill or pursue a passion with short courses across every subject, whether you are a beginner or already an expert.</p>
 
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
       <!-- First Card -->
@@ -844,7 +873,7 @@
           <div class="card-body d-flex flex-column p-4">
             <h5 class="card-title fs-4 mb-3">Find the Right Program For Your Career</h5>
             <p class="card-text flex-grow-1">Professional certificate programs are offered in a variety of in-demand subjects to help you get ahead.</p>
-            <button type="button" class="btn bg-white box-shadow mt-auto w-100">Explore</button>
+            <button type="button" class="btn how-it-works-btn bg-white box-shadow mt-auto w-100">Explore</button>
           </div>
         </div>
       </div>
@@ -855,7 +884,7 @@
           <div class="card-body d-flex flex-column p-4">
             <h5 class="card-title fs-4 mb-3">Learn and Gain Expertise at Your Own Pace</h5>
             <p class="card-text flex-grow-1">On your computer, tablet or phone, online courses make learning flexible to fit your busy life.</p>
-            <button type="button" class="btn bg-white box-shadow mt-auto w-100">Explore</button>
+            <button type="button" class="btn how-it-works-btn bg-white box-shadow mt-auto w-100">Explore</button>
           </div>
         </div>
       </div>
@@ -866,7 +895,7 @@
           <div class="card-body d-flex flex-column p-4">
             <h5 class="card-title fs-4 mb-3">Earn a valuable credential</h5>
             <p class="card-text flex-grow-1">Showcase your key skills and valuable knowledge.</p>
-            <button type="button" class="btn bg-white box-shadow mt-auto w-100">Explore</button>
+            <button type="button" class="btn how-it-works-btn bg-white box-shadow mt-auto w-100">Explore</button>
           </div>
         </div>
       </div>
@@ -877,7 +906,7 @@
           <div class="card-body d-flex flex-column p-4">
             <h5 class="card-title fs-4 mb-3">Stand Out in Your Field</h5>
             <p class="card-text flex-grow-1">Use the knowledge and skills you've gained to drive impact at work and grow your career.</p>
-            <button type="button" class="btn bg-white box-shadow mt-auto w-100">Explore</button>
+            <button type="button" class="btn how-it-works-btn bg-white box-shadow mt-auto w-100">Explore</button>
           </div>
         </div>
       </div>
@@ -887,9 +916,9 @@
 
 <!-- Topics -->
 <div class="container py-5">
-  <div class="d-flex align-items-start topic-container">
-    <div class="img-container">
-      <img src="./assets/images/man-learning.jpg" class="img-thumbnail box-shadow" alt="Man learning">
+  <div class="d-flex align-items-stretch topic-container">
+    <div class="img-container topics-img">
+      <img src="./assets/images/man-learning.jpg" class="img-fluid rounded box-shadow" alt="Man learning">
     </div>
 
     <div class="topics-section">
@@ -917,157 +946,131 @@
 
 <!-- Reviews -->
 <div class="container-fluid py-5 px-5 bg-peach">
-  <div class="d-flex align-items-start review-container">
-    <div class="review-section">
-      <h5 class="display-4 text-left mb-2 gradient-text">How learners like you are achieving their goals</h5>
-      <span class="underline"></span>
-
-      <p class="fs-5 mb-4">Participants in our courses don't just learn new skills, they enjoy the experience too.</p>
+    <div class="nav-arrows review-arrow">
+        <button class="nav-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M15 18l-6-6 6-6"/>
+            </svg>
+        </button>
+        <button class="nav-arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 18l6-6-6-6"/>
+            </svg>
+        </button>
     </div>
 
-    <div class="review d-flex">
-      <div class="img-container">
-        <img src="./assets/images/review-image.jpg" class="img-thumbnail box-shadow rounded-circle" alt="Man learning">
-      </div>  
+    <div class="d-flex align-items-start review-container">    
+        <div class="review-section">
+            <h5 class="text-left mb-2 gradient-text fs-1 font-weight-bolder">How learners like you are achieving their goals</h5>
+            <span class="underline"></span>
 
-      <div class="review-comment">
-        <h5>Saheed Rahama</h5>
-        <p><i>Communication Manager, Pepsi</i></p>
+            <p class="fs-5 mb-4">Participants in our courses don't just learn new skills, they enjoy the experience too.</p>
+        </div>
 
-        <h6>Executive Education</h6>
-        <span>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#FDCC0D" stroke="#FDCC0D" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.587 8.236l2.598-5.232a.911.911 0 0 1 1.63 0l2.598 5.232l5.808.844a.902.902 0 0 1 .503 1.542l-4.202 4.07l.992 5.75c.127.738-.653 1.3-1.32.952L12 18.678l-5.195 2.716c-.666.349-1.446-.214-1.319-.953l.992-5.75l-4.202-4.07a.902.902 0 0 1 .503-1.54z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#FDCC0D" stroke="#FDCC0D" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.587 8.236l2.598-5.232a.911.911 0 0 1 1.63 0l2.598 5.232l5.808.844a.902.902 0 0 1 .503 1.542l-4.202 4.07l.992 5.75c.127.738-.653 1.3-1.32.952L12 18.678l-5.195 2.716c-.666.349-1.446-.214-1.319-.953l.992-5.75l-4.202-4.07a.902.902 0 0 1 .503-1.54z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#FDCC0D" stroke="#FDCC0D" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.587 8.236l2.598-5.232a.911.911 0 0 1 1.63 0l2.598 5.232l5.808.844a.902.902 0 0 1 .503 1.542l-4.202 4.07l.992 5.75c.127.738-.653 1.3-1.32.952L12 18.678l-5.195 2.716c-.666.349-1.446-.214-1.319-.953l.992-5.75l-4.202-4.07a.902.902 0 0 1 .503-1.54z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#FDCC0D" stroke="#FDCC0D" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.587 8.236l2.598-5.232a.911.911 0 0 1 1.63 0l2.598 5.232l5.808.844a.902.902 0 0 1 .503 1.542l-4.202 4.07l.992 5.75c.127.738-.653 1.3-1.32.952L12 18.678l-5.195 2.716c-.666.349-1.446-.214-1.319-.953l.992-5.75l-4.202-4.07a.902.902 0 0 1 .503-1.54z"/></svg>
-          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#FDCC0D" stroke="#FDCC0D" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.587 8.236l2.598-5.232a.911.911 0 0 1 1.63 0l2.598 5.232l5.808.844a.902.902 0 0 1 .503 1.542l-4.202 4.07l.992 5.75c.127.738-.653 1.3-1.32.952L12 18.678l-5.195 2.716c-.666.349-1.446-.214-1.319-.953l.992-5.75l-4.202-4.07a.902.902 0 0 1 .503-1.54z"/></svg>
-        </span>
+        <div class="review d-flex">
+            <div class="img-container review-img">
+                <img src="./assets/images/review-image.jpg" class="img-thumbnail box-shadow rounded-circle" alt="Man learning">
+            </div>  
 
-        <p>I took a communication management course on Skillkernel, and it exceeded my expectations. The platform was incredibly user-friendly, allowing me to learn at my own pace without feeling overwhelmed. The content was practical and well-structured, making it easy to apply what I learned right away. Overall, I’m thoroughly impressed and would highly recommend this platform to anyone looking to upskill effectively!</p>
-      </div>
+            <div class="review-comment">
+                <h5>Saheed Rahama</h5>
+                <p><i>Communication Manager, Pepsi</i></p>
+
+                <h6>Executive Education</h6>
+                <span class="stars">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#FDCC0D" stroke="#FDCC0D" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.587 8.236l2.598-5.232a.911.911 0 0 1 1.63 0l2.598 5.232l5.808.844a.902.902 0 0 1 .503 1.542l-4.202 4.07l.992 5.75c.127.738-.653 1.3-1.32.952L12 18.678l-5.195 2.716c-.666.349-1.446-.214-1.319-.953l.992-5.75l-4.202-4.07a.902.902 0 0 1 .503-1.54z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#FDCC0D" stroke="#FDCC0D" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.587 8.236l2.598-5.232a.911.911 0 0 1 1.63 0l2.598 5.232l5.808.844a.902.902 0 0 1 .503 1.542l-4.202 4.07l.992 5.75c.127.738-.653 1.3-1.32.952L12 18.678l-5.195 2.716c-.666.349-1.446-.214-1.319-.953l.992-5.75l-4.202-4.07a.902.902 0 0 1 .503-1.54z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#FDCC0D" stroke="#FDCC0D" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.587 8.236l2.598-5.232a.911.911 0 0 1 1.63 0l2.598 5.232l5.808.844a.902.902 0 0 1 .503 1.542l-4.202 4.07l.992 5.75c.127.738-.653 1.3-1.32.952L12 18.678l-5.195 2.716c-.666.349-1.446-.214-1.319-.953l.992-5.75l-4.202-4.07a.902.902 0 0 1 .503-1.54z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#FDCC0D" stroke="#FDCC0D" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.587 8.236l2.598-5.232a.911.911 0 0 1 1.63 0l2.598 5.232l5.808.844a.902.902 0 0 1 .503 1.542l-4.202 4.07l.992 5.75c.127.738-.653 1.3-1.32.952L12 18.678l-5.195 2.716c-.666.349-1.446-.214-1.319-.953l.992-5.75l-4.202-4.07a.902.902 0 0 1 .503-1.54z"/></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="#FDCC0D" stroke="#FDCC0D" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m8.587 8.236l2.598-5.232a.911.911 0 0 1 1.63 0l2.598 5.232l5.808.844a.902.902 0 0 1 .503 1.542l-4.202 4.07l.992 5.75c.127.738-.653 1.3-1.32.952L12 18.678l-5.195 2.716c-.666.349-1.446-.214-1.319-.953l.992-5.75l-4.202-4.07a.902.902 0 0 1 .503-1.54z"/></svg>
+                </span>
+
+                <p>I took a communication management course on Skillkernel, and it exceeded my expectations. The platform was incredibly user-friendly, allowing me to learn at my own pace without feeling overwhelmed. The content was practical and well-structured, making it easy to apply what I learned right away. Overall, I'm thoroughly impressed and would highly recommend this platform to anyone looking to upskill effectively!</p>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 
 <!-- Footer -->
-<footer class="container-fluid footer py-5 px-5">
-  <svg class="social-gradient-def">
-    <defs>
-      <linearGradient id="social-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" style="stop-color:rgba(203,69,22,1)" />
-        <stop offset="35%" style="stop-color:rgba(133,19,149,1)" />
-        <stop offset="100%" style="stop-color:rgba(194,0,255,1)" />
-      </linearGradient>
-    </defs>
-  </svg>
-<div class="links d-flex justify-content-between">
-  <div class="footer-links">
-    <h5>About Us</h5>
-    <ul>
-      <li>Our Mission and Vision</li>
-      <li>Our Partners</li>
-      <li>Become a Partner</li>
-      <li>Contact Us</li>
-      <li>Reviews</li>
-    </ul>
-  </div>
-  <div class="footer-links">
-    <h5>Popular Subjects</h5>
-    <ul>
-      <li>Business Management</li>
-      <li>Personal development</li>
-      <li>Business Law</li>
-      <li>Sales and Marketing</li>
-      <li>Office Productivity</li>
-    </ul>
-  </div>
-  <div class="footer-links">
-    <h5>Small Prints</h5>
-    <ul>
-      <li>Terms and Conditions</li>
-      <li>Privacy Policy</li>
-      <li>Refund Policy</li>
-    </ul>
-  </div>
-</div>
+<footer class="container-fluid footer position-relative">    
+    <div class="links d-flex justify-content-between">
+      <div class="footer-links">
+        <h5>About Us</h5>
+        <ul>
+          <li>Our Mission and Vision</li>
+          <li>Our Partners</li>
+          <li>Become a Partner</li>
+          <li>Contact Us</li>
+          <li>Reviews</li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>Popular Subjects</h5>
+        <ul>
+          <li>Business Management</li>
+          <li>Personal development</li>
+          <li>Business Law</li>
+          <li>Sales and Marketing</li>
+          <li>Office Productivity</li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h5>Small Prints</h5>
+        <ul>
+          <li>Terms and Conditions</li>
+          <li>Privacy Policy</li>
+          <li>Refund Policy</li>
+        </ul>
+      </div>
+    </div>
+  
+    <hr>
+    <div class="d-flex justify-space-between">
+      <div class="">
+        <h5>Sign up to our Newsletter</h5>
+        <p>Stay up to date with the latest news, announcements, and articles.</p>
+      </div>
+  
+      <div>
+        <form class="d-flex newsletter-form position-relative" role="email">
+          <input class="form-control" type="email" placeholder="Enter your email address" aria-label="Email">
+          <button class="btn position-absolute submit-button box-shadow" type="submit">
+            Subscribe
+          </button>
+        </form>
+      </div>
+    </div>
+    <hr>
+  
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="social-links">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#cb4516" class="text-white">
+            <path d="M22.675 0h-21.35C.6 0 0 .6 0 1.325v21.35C0 23.4.6 24 1.325 24h21.35C23.4 24 24 23.4 24 22.675V1.325C24 .6 23.4 0 22.675 0zm-3.15 12.5h-3.1v9.5h-4.1v-9.5h-2.5v-3.7h2.5v-2.5c0-2.5 1.5-3.9 3.7-3.9 1.1 0 2.1.1 2.5.1v3h-1.7c-1.3 0-1.6.6-1.6 1.5v2.1h3.1l-.4 3.7z"/>
+        </svg>
+  
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><rect width="24" height="24" fill="none"/><path fill="none" stroke="#cb4516" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6.182 10.333c-.978 0-1.182.192-1.182 1.111v1.667c0 .92.204 1.111 1.182 1.111h2.363v6.667c0 .92.205 1.111 1.182 1.111h2.364c.978 0 1.182-.192 1.182-1.111v-6.667h2.654c.741 0 .932-.135 1.136-.806l.507-1.666c.349-1.149.133-1.417-1.137-1.417h-3.16V7.556c0-.614.529-1.112 1.181-1.112h3.364c.978 0 1.182-.191 1.182-1.11V3.11C19 2.191 18.796 2 17.818 2h-3.364c-3.263 0-5.909 2.487-5.909 5.556v2.777z" color="#000000"/></svg>
 
-<hr>
-<div class="d-flex justify-space-between">
-  <div class="">
-    <h5>Sign up to our Newsletter</h5>
-    <p>Stay up to date with the latest news, announcements, and articles.</p>
-  </div>
-
-  <div>
-    <form class="d-flex newsletter-form position-relative" role="email">
-      <input class="form-control" type="email" placeholder="Enter your email address" aria-label="Email">
-      <button class="btn position-absolute submit-button box-shadow" type="submit">
-        Subscribe
-      </button>
-  </form>
-  </div>
-</div>
-<hr>
-
-<div class="container d-flex justify-content-between align-items-center">
-  <div class="social-links">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="#fff" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 16a4 4 0 1 0 0-8a4 4 0 0 0 0 8"/><path d="M3 16V8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5Z"/><path stroke-linecap="round" stroke-linejoin="round" d="m17.5 6.51l.01-.011"/></g></svg>
-
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></g></svg>
-  </div>
-  <div class="copyright">
-    <p>&#169; SkillKernel 2023. All rights reserved</p>
-  </div>
-</div>
-</footer>
-
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="#7a1395" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M12 16a4 4 0 1 0 0-8a4 4 0 0 0 0 8"/><path d="M3 16V8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5Z"/><path stroke-linecap="round" stroke-linejoin="round" d="m17.5 6.51l.01-.011"/></g></svg>
+  
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="#c200ff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2a2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6M2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></g></svg>
+      </div>
+      <div class="copyright">
+        <p>&#169; SkillKernel 2023. All rights reserved</p>
+      </div>
+    </div>
+  
+    <!-- Cart with count -->
+    <div class="cart-container">
+      <div class="cart-wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" class="cart-icon">
+          <rect width="26" height="26" fill="none"/>
+          <path fill="#ffffff" d="M.719 0A1.004 1.004 0 0 0 1 2h3.469c.574 0 .757.115.906.25s.335.407.5.969l4.688 15.937a1 1 0 0 0 .03.094S11.704 22 14.5 22h7.844a1 1 0 1 0 0-2H14.5c-1.475 0-2.063-1.5-2.063-1.5l-.156-.5h8.125c1.03 0 1.496-.864 1.594-1.188l3.594-7.718C26.15 7.76 25.859 6 23.812 6h-14.5c-.166 0-.351.042-.53.094c-.36-1.223-.928-3.19-1-3.438c-.21-.713-.49-1.387-1.063-1.906S5.349 0 4.469 0H1a1 1 0 0 0-.094 0a1 1 0 0 0-.094 0A1 1 0 0 0 .72 0zm8.906 8.063h4.219v1.78h-3.656l-.47-1.5c-.032-.11-.08-.204-.093-.28m5.531 0h2.688v1.78h-2.688zm4 0h4.625a1 1 0 0 1-.062.218L23 9.844h-3.844zm-8.562 3.093h3.25v1.688h-2.719zm4.562 0h2.688v1.688h-2.688zm4 0h3.219l-.781 1.688h-2.438zm-7.625 3h2.313v1.781h-1.656c-.04 0-.062-.013-.094-.03l-.563-1.75zm3.625 0h2.688v1.781h-2.688v-1.78zm4 0H21l-.844 1.781h-1v-1.78zM14 22.187a1.812 1.812 0 1 0 0 3.625a1.812 1.812 0 0 0 0-3.625m6 0a1.812 1.812 0 1 0 0 3.625a1.812 1.812 0 0 0 0-3.625"/>
+        </svg>
+        <span class="cart-count">10</span>
+      </div>
+    </div>
+  </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
-
-  <script>
-      document.addEventListener('DOMContentLoaded', () => {
-          const themeToggle = document.getElementById('theme-toggle');
-          const moonIcon = themeToggle.querySelector('.moon-icon');
-          const sunIcon = themeToggle.querySelector('.sun-icon');
-          
-          function setTheme(isDark) {
-              document.documentElement.setAttribute('data-bs-theme', isDark ? 'dark' : 'light');
-              
-              // Toggle icon visibility
-              moonIcon.style.display = isDark ? 'none' : 'block';
-              sunIcon.style.display = isDark ? 'block' : 'none';
-              
-              // Update navbar classes
-              const navbar = document.querySelector('.navbar');
-              if (isDark) {
-                  navbar.classList.remove('navbar-light', 'bg-body-tertiary');
-                  navbar.classList.add('navbar-dark', 'bg-dark');
-                  themeToggle.classList.add('btn-outline-light');
-                  themeToggle.classList.remove('btn-outline-dark');
-              } else {
-                  navbar.classList.remove('navbar-dark', 'bg-dark');
-                  navbar.classList.add('navbar-light', 'bg-body-tertiary');
-                  themeToggle.classList.add('btn-outline-dark');
-                  themeToggle.classList.remove('btn-outline-light');
-              }
-              
-              // Save preference
-              localStorage.setItem('theme-preference', isDark ? 'dark' : 'light');
-          }
-
-          // Check for saved preference
-          const savedTheme = localStorage.getItem('theme-preference');
-          if (savedTheme) {
-              setTheme(savedTheme === 'dark');
-          }
-
-          themeToggle.addEventListener('click', () => {
-              const isDark = document.documentElement.getAttribute('data-bs-theme') === 'dark';
-              setTheme(!isDark);
-          });
-      });
-  </script>
 </body>
 </html>
