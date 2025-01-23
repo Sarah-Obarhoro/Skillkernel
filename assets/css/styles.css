@@ -919,8 +919,8 @@ width: 57%;
     max-width: 200px;
     height: 200px;
     object-fit: cover;
-    border: none; /* Removing border */
-    padding: 0; /* Removing padding */
+    border: none; 
+    padding: 0;
     border-radius: 50% !important;
 }
 
